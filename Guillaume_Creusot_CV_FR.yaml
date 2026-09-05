@@ -1,0 +1,85 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: Guillaume Creusot
+  headline: Ingénieur logiciel / Tech Lead - Intégration IA
+  location: Toulouse et périphérie, France
+  social_networks:
+    - network: LinkedIn
+      username: guillaume-creusot-678237179
+  sections:
+    Profil:
+      - "Ingénieur logiciel et Tech Lead avec 5 ans d'expérience dans la conception, la livraison et l'exploitation de systèmes logiciels. Spécialisé dans l'intégration de capacités IA dans des produits destinés aux clients, de l'architecture à la mise en production."
+    Expérience:
+      - company: Avanteam
+        position: Tech Lead - Équipe IA
+        start_date: 2025-10
+        end_date: present
+        location: Toulouse, France
+        highlights:
+          - Conçoit et livre des systèmes de traitement documentaire basés sur des LLM, déployés auprès de plus de 10 clients.
+          - Développe des chaînes de traitement asynchrones combinant API, files de tâches, traitement multimodal, extraction structurée, validation, persistance et événements de rappel.
+          - Renforce la fiabilité des flux IA grâce aux reprises sur erreur, délais d'expiration, contrôle de concurrence, observabilité et gestion des indisponibilités des fournisseurs.
+          - Tech Lead d'une équipe de 3 développeurs, tout en restant environ 70 % dans l'implémentation, l'architecture et la livraison.
+          - Traduit les besoins produit et clients en conceptions techniques, tickets et spécifications d'interface légères.
+      - company: Voyage personnel en Asie du Sud-Est
+        position: Pause professionnelle
+        start_date: 2024-03
+        end_date: 2025-10
+        highlights:
+          - Voyage culturel en Thaïlande, au Cambodge, en Indonésie et en Malaisie.
+      - company: Avanteam
+        position: Développeur .NET
+        start_date: 2020-02
+        end_date: 2024-01
+        location: Toulouse, France
+        highlights:
+          - Conçoit et développe des applications web en intervenant de l'architecture technique à l'analyse des besoins clients.
+          - Participe à la gestion de projet et à la livraison de fonctionnalités destinées aux clients.
+    Formation:
+      - institution: École Nationale Supérieure de Cognitique (ENSC)
+        area: Diplôme d'ingénieur en informatique
+        start_date: 2017
+        end_date: 2020
+      - institution: Lycée Louis de Cormontaigne
+        area: CPGE PSI (classes préparatoires)
+        start_date: 2015
+        end_date: 2017
+        location: Metz, France
+    Compétences:
+      - label: IA
+        details: LLM, IA multimodale, extraction structurée, LangGraph, LangChain, prompt engineering, évaluation IA
+      - label: Backend et architecture
+        details: Python, FastAPI, ASP.NET, API, systèmes distribués, traitement asynchrone, files de tâches, conception de systèmes
+      - label: Plateforme
+        details: Docker, Podman, Linux, NixOS, CI/CD, observabilité
+      - label: Leadership technique
+        details: Architecture, revues de code, collaboration produit-ingénierie, mentorat
+    Langues:
+      - label: Français
+        details: Langue maternelle
+      - label: Anglais
+        details: Capacité professionnelle fonctionnelle
+      - label: Allemand
+        details: Notions de base
+
+design:
+  theme: classic
+  page:
+    size: a4
+    top_margin: 0.55in
+    bottom_margin: 0.55in
+    left_margin: 0.65in
+    right_margin: 0.65in
+    show_footer: false
+    show_top_note: false
+  colors:
+    name: rgb(0, 79, 144)
+    headline: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
+    links: rgb(0, 79, 144)
+  header:
+    connections:
+      display_urls_instead_of_usernames: false
+
+locale:
+  language: french

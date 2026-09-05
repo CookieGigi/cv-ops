@@ -1,0 +1,44 @@
+name: Build and release CV
+
+on:
+  pull_request:
+  push:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  dry-run:
+    if: github.event_name != 'release'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - name: Build PDFs
+        run: |
+          mkdir -p dist
+          uvx --from "rendercv[full]==2.8.*" rendercv render Guillaume_Creusot_CV_EN.yaml --pdf-path dist/Guillaume_Creusot_CV_EN.pdf --dont-generate-markdown --dont-generate-html --dont-generate-png
+          uvx --from "rendercv[full]==2.8.*" rendercv render Guillaume_Creusot_CV_FR.yaml --pdf-path dist/Guillaume_Creusot_CV_FR.pdf --dont-generate-markdown --dont-generate-html --dont-generate-png
+
+  release:
+    if: github.event_name == 'release'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.release.tag_name }}
+      - uses: astral-sh/setup-uv@v5
+      - name: Build PDFs
+        run: |
+          mkdir -p dist
+          uvx --from "rendercv[full]==2.8.*" rendercv render Guillaume_Creusot_CV_EN.yaml --pdf-path dist/Guillaume_Creusot_CV_EN.pdf --dont-generate-markdown --dont-generate-html --dont-generate-png
+          uvx --from "rendercv[full]==2.8.*" rendercv render Guillaume_Creusot_CV_FR.yaml --pdf-path dist/Guillaume_Creusot_CV_FR.pdf --dont-generate-markdown --dont-generate-html --dont-generate-png
+      - name: Attach PDFs to release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload "${{ github.event.release.tag_name }}" dist/*.pdf --clobber
