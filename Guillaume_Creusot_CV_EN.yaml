@@ -52,6 +52,17 @@ cv:
           - "Uses agentic RAG with tools to search indexed records and attachments broadly, plus tools to open specific records or attachments"
           - "Indexes data in Azure Search or OVH PostgreSQL"
           - "Installed as a module in the .NET host via the product's Extension mechanism; exposes a React frontend and a proxy API to the external Python/FastAPI SaaS API that implements the AI capabilities with LangChain/LangGraph"
+      - name: Unstructured Document Extraction
+        start_date: 2025-10
+        end_date: present
+        location: Avanteam
+        summary: Multi-agent pipeline that ingests unstructured documents and imports them as typed records with the correct metadata.
+        highlights:
+          - "Helps customers avoid tedious manual entry when registering documents and quality records in Avanteam Solution"
+          - "Accepts any unstructured input such as PDFs, Word files, Excel sheets, and emails"
+          - "Classifies the document, runs OCR when needed, and extracts metadata (object, application date, sender/source, record type, ...)"
+          - "Orchestrates specialized agents (OCR, classification, extraction, judge, correction, ...) through a LangGraph workflow"
+          - "Deployed as a customer-side .NET extension that sends documents to the external AI API and receives the inferred record type and metadata for integration"
       - name: Task Scheduling Module
         date: "2020"
         location: Avanteam
