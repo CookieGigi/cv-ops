@@ -1,14 +1,14 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: Guillaume Creusot
-  headline: Senior Software Engineer / Tech Lead - AI Integration
+  headline: Software Engineer / Tech Lead - AI Integration
   location: Toulouse, France - Relocating permanently to Malaysia
   social_networks:
     - network: LinkedIn
       username: guillaume-creusot-678237179
   sections:
     Summary:
-      - "Software Engineer and Tech Lead with 5 years of experience building and operating production software systems. Leads a team of 3 while remaining hands-on across architecture, implementation, and delivery of AI-enabled features. Experienced in integrating LLMs, document-processing pipelines, and distributed backend systems into customer-facing products. Seeking hands-on Senior Software Engineer or Tech Lead roles in Malaysia focused on AI-enabled software systems."
+      - "Software Engineer and Tech Lead with 5 years of experience building and operating production software systems. Leads a team of 3 while remaining hands-on across architecture, implementation, and delivery of AI-enabled features such as agentic chat, document extraction, and form-completion assistants. Seeking hands-on Software Engineer or Tech Lead roles in Malaysia focused on AI-enabled software systems."
     Experience:
       - company: Avanteam
         position: Tech Lead - AI Team
@@ -16,25 +16,28 @@ cv:
         end_date: present
         location: Toulouse, France
         highlights:
-          - Designed and shipped production LLM-powered document-processing systems used by 10+ customers.
-          - Built asynchronous workflows combining APIs, job queues, multimodal processing, structured extraction, validation, persistence, and callbacks.
-          - Improved AI workflow reliability through retries, timeout handling, concurrency control, observability, and provider-failure management.
-          - Tech Lead for a team of 3, combining approximately 70% hands-on engineering with architecture decisions, task decomposition, and delivery coordination.
-          - Translated product and customer requirements into technical designs, implementation tickets, and lightweight UI specifications.
+          - Deployed LLM-powered solutions to 10+ customers by integrating them into their Avanteam apps and managing key accounts end-to-end.
+          - Built an efficient agentic RAG system in Python with LangChain/LangGraph/FastAPI, evaluating correctness, reasoning, cost, and latency against tailored datasets.
+          - Migrated retrieval from Azure Search Service to GDPR-compliant managed PostgreSQL with pgvector and a managed Kubernetes cluster, both hosted by OVH in France, keeping customer data in-house with isolated databases per customer.
+          - Built asynchronous workflows for unstructured document metadata extraction and a form-completion assistant using agentic RAG, combining .NET/React with Python/FastAPI APIs and multimodal processing.
+          - Operated a production monitoring stack with centralized logging and alerting across customer deployments.
+          - Tech Lead for a team of 3, balancing ~70% hands-on engineering with architecture and delivery; partnered with the CTO to drive AI adoption and MCP usage.
       - company: Personal Travel in Southeast Asia
         position: Career Break
         start_date: 2024-03
         end_date: 2025-10
         highlights:
-          - Cultural travel across Thailand, Cambodia, Indonesia, and Malaysia.
+          - Improved spoken English through full immersion.
+          - Learned Rust and studied local AI/RAG, sharpening functional-programming fundamentals.
+          - Traveled across Thailand, Cambodia, Indonesia, and Malaysia, where I met my wife.
+          - Explored self-hosting and IaC with Proxmox, Docker/Podman, k3s, Tailscale, pfSense/OPNsense, Nginx/Caddy/Traefik, Authentik/Authelia, and Ansible; adopted NixOS as my daily driver.
       - company: Avanteam
         position: .NET Developer
         start_date: 2020-02
         end_date: 2024-01
         location: Toulouse, France
         highlights:
-          - Designed and developed web applications, contributing from technical architecture through customer requirements analysis.
-          - Contributed to project delivery and customer-facing feature development.
+          - Designed and developed customer-facing web applications from technical architecture through requirements analysis and project delivery.
     Education:
       - institution: École Nationale Supérieure de Cognitique (ENSC)
         area: Engineering Degree in Computer Science
@@ -49,9 +52,9 @@ cv:
       - label: AI Engineering
         details: LLMs, multimodal AI, structured extraction, LangGraph, LangChain, prompt engineering, AI evaluation
       - label: Backend and Architecture
-        details: Python, FastAPI, ASP.NET, APIs, distributed systems, asynchronous processing, job queues, system design
+        details: Python, FastAPI, ASP.NET, PostgreSQL, APIs, distributed systems, asynchronous processing, job queues, system design
       - label: Infrastructure
-        details: Docker, Podman, Linux, NixOS, CI/CD, observability
+        details: Docker, Podman, Kubernetes, Rancher, ArgoCD, Linux, NixOS, CI/CD, observability (Prometheus, Loki, Grafana)
       - label: Technical Leadership
         details: Architecture, code review, product-engineering collaboration, mentoring
     Languages:
