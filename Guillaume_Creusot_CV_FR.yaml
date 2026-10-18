@@ -16,25 +16,25 @@ cv:
         end_date: present
         location: Toulouse, France
         highlights:
-          - Conçoit et livre des systèmes de traitement documentaire basés sur des LLM, déployés auprès de plus de 10 clients.
-          - Développe des chaînes de traitement asynchrones combinant API, files de tâches, traitement multimodal, extraction structurée, validation, persistance et événements de rappel.
-          - Renforce la fiabilité des flux IA grâce aux reprises sur erreur, délais d'expiration, contrôle de concurrence, observabilité et gestion des indisponibilités des fournisseurs.
-          - Tech Lead d'une équipe de 3 développeurs, tout en restant environ 70 % dans l'implémentation, l'architecture et la livraison.
-          - Traduit les besoins produit et clients en conceptions techniques, tickets et spécifications d'interface légères.
+          - "**Livraison client :** Conçoit et livre des systèmes de traitement documentaire basés sur des LLM, déployés auprès de plus de 10 clients."
+          - "**Traitement asynchrone :** Développe des chaînes de traitement asynchrones combinant API, files de tâches, traitement multimodal, extraction structurée, validation, persistance et événements de rappel."
+          - "**Fiabilité :** Renforce la fiabilité des flux IA grâce aux reprises sur erreur, délais d'expiration, contrôle de concurrence, observabilité et gestion des indisponibilités des fournisseurs."
+          - "**Leadership :** Tech Lead d'une équipe de 3 développeurs, tout en restant environ 70 % dans l'implémentation, l'architecture et la livraison."
+          - "**Conception produit :** Traduit les besoins produit et clients en conceptions techniques, tickets et spécifications d'interface légères."
       - company: Voyage personnel en Asie du Sud-Est
         position: Pause professionnelle
         start_date: 2024-03
         end_date: 2025-10
         highlights:
-          - Voyage culturel en Thaïlande, au Cambodge, en Indonésie et en Malaisie.
+          - "**Voyage culturel :** Voyage culturel en Thaïlande, au Cambodge, en Indonésie et en Malaisie."
       - company: Avanteam
         position: Développeur .NET
         start_date: 2020-02
         end_date: 2024-01
         location: Toulouse, France
         highlights:
-          - Conçoit et développe des applications web en intervenant de l'architecture technique à l'analyse des besoins clients.
-          - Participe à la gestion de projet et à la livraison de fonctionnalités destinées aux clients.
+          - "**Développement web :** Conçoit et développe des applications web en intervenant de l'architecture technique à l'analyse des besoins clients."
+          - "**Livraison :** Participe à la gestion de projet et à la livraison de fonctionnalités destinées aux clients."
     Formation:
       - institution: École Nationale Supérieure de Cognitique (ENSC)
         area: Diplôme d'ingénieur en informatique

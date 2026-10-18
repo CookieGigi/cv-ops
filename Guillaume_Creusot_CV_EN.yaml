@@ -16,28 +16,28 @@ cv:
         end_date: present
         location: Toulouse, France
         highlights:
-          - Deployed LLM-powered solutions to 10+ customers by integrating them into their Avanteam apps and managing key accounts end-to-end.
-          - Built an efficient agentic RAG system in Python with LangChain/LangGraph/FastAPI, evaluating correctness, reasoning, cost, and latency against tailored datasets.
-          - Migrated retrieval from Azure Search Service to GDPR-compliant managed PostgreSQL with pgvector and a managed Kubernetes cluster, both hosted by OVH in France, keeping customer data in-house with isolated databases per customer.
-          - Built asynchronous workflows for unstructured document metadata extraction and a form-completion assistant using agentic RAG, combining .NET/React with Python/FastAPI APIs and multimodal processing.
-          - Operated a production monitoring stack with centralized logging and alerting across customer deployments.
-          - Tech Lead for a team of 3, balancing ~70% hands-on engineering with architecture and delivery; partnered with the CTO to drive AI adoption and MCP usage.
+          - "**Customer Delivery:** Deployed LLM-powered solutions to 10+ customers by integrating them into their Avanteam apps and managing key accounts end-to-end."
+          - "**Agentic RAG:** Built an efficient agentic RAG system in Python with LangChain/LangGraph/FastAPI, evaluating correctness, reasoning, cost, and latency against tailored datasets."
+          - "**Data & Infrastructure:** Migrated retrieval from Azure Search Service to GDPR-compliant managed PostgreSQL with pgvector and a managed Kubernetes cluster, both hosted by OVH in France, keeping customer data in-house with isolated databases per customer."
+          - "**AI Features:** Built asynchronous workflows for unstructured document metadata extraction, a form-completion assistant, and a chat using agentic RAG, combining .NET/React with Python/FastAPI APIs and multimodal processing."
+          - "**Operations:** Operated a production monitoring stack with centralized logging and alerting across customer deployments."
+          - "**Collaboration:** Tech Lead for a team of 3, balancing ~70% hands-on engineering with architecture and delivery; partnered with the CTO to drive AI adoption and MCP usage."
       - company: Personal Travel in Southeast Asia
         position: Career Break
         start_date: 2024-03
         end_date: 2025-10
         highlights:
-          - Improved spoken English through full immersion.
-          - Learned Rust and studied local AI/RAG, sharpening functional-programming fundamentals.
-          - Traveled across Thailand, Cambodia, Indonesia, and Malaysia, where I met my wife.
-          - Explored self-hosting and IaC with Proxmox, Docker/Podman, k3s, Tailscale, pfSense/OPNsense, Nginx/Caddy/Traefik, Authentik/Authelia, and Ansible; adopted NixOS as my daily driver.
+          - "**English:** Improved spoken English through full immersion."
+          - "**Software engineering:** Learned Rust and studied local AI/RAG, sharpening functional-programming fundamentals."
+          - "**Culture:** Traveled across Thailand, Cambodia, Indonesia, and Malaysia, where I met my wife."
+          - "**Self-hosting/reproducibility:** Explored self-hosting and IaC with Proxmox, Docker/Podman, k3s, Tailscale, pfSense/OPNsense, Nginx/Caddy/Traefik, Authentik/Authelia, and Ansible; adopted NixOS as my daily driver."
       - company: Avanteam
         position: .NET Developer
         start_date: 2020-02
         end_date: 2024-01
         location: Toulouse, France
         highlights:
-          - Designed and developed customer-facing web applications from technical architecture through requirements analysis and project delivery.
+          - "**Full-cycle Development:** Designed and developed customer-facing web applications from technical architecture through requirements analysis and project delivery."
     Education:
       - institution: École Nationale Supérieure de Cognitique (ENSC)
         area: Engineering Degree in Computer Science
