@@ -63,13 +63,15 @@ cv:
           - "**Core Subjects:** Advanced mathematics, physics, and engineering sciences"
     Skills:
       - label: AI Engineering
-        details: LLMs, multimodal AI, structured extraction, LangGraph, LangChain, prompt engineering, AI evaluation
-      - label: Backend and Architecture
-        details: Python, FastAPI, ASP.NET, PostgreSQL, APIs, distributed systems, asynchronous processing, job queues, system design
-      - label: Infrastructure
-        details: Docker, Podman, Kubernetes, Rancher, ArgoCD, Linux, NixOS, CI/CD, observability (Prometheus, Loki, Grafana)
+        details: Agentic RAG, AI evaluation, unstructured document extraction; agentic coding, LangChain/LangGraph, skill/tool/MCP/ag-ui design, agent UI, AI integration
+      - label: Backend
+        details: Python, FastAPI, .NET/ASP.NET, PostgreSQL; Microsoft SQL Server, REST APIs, job queues, asynchronous processing, Git
+      - label: Frontend
+        details: React, Next.js, Chakra UI
+      - label: Cloud & Infrastructure
+        details: Azure, Linux, Kubernetes, CI/CD, observability (Prometheus, Loki, Grafana); OVH, Docker/Podman, Rancher, NixOS
       - label: Technical Leadership
-        details: Architecture, code review, product-engineering collaboration, mentoring
+        details: System design/architecture, leading and mentoring small teams, code review, product-engineering collaboration
     Languages:
       - label: French
         details: Native

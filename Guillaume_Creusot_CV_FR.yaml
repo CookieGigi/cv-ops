@@ -62,14 +62,16 @@ cv:
           - "**Préparation aux concours :** Préparation intensive aux concours d'entrée aux grandes écoles françaises"
           - "**Matières principales :** Mathématiques avancées, physique et sciences de l'ingénieur"
     Compétences:
-      - label: IA
-        details: LLMs, IA multimodale, extraction structurée, LangGraph, LangChain, prompt engineering, évaluation IA
-      - label: Backend et architecture
-        details: Python, FastAPI, ASP.NET, PostgreSQL, API, systèmes distribués, traitement asynchrone, files de tâches, conception de systèmes
-      - label: Plateforme
-        details: Docker, Podman, Kubernetes, Rancher, ArgoCD, Linux, NixOS, CI/CD, observabilité (Prometheus, Loki, Grafana)
+      - label: Ingénierie IA
+        details: RAG agentique, évaluation IA, extraction de documents non structurés; codage agentique, LangChain/LangGraph, conception skill/tool/MCP/ag-ui, UI agent, intégration IA
+      - label: Backend
+        details: Python, FastAPI, .NET/ASP.NET, PostgreSQL; Microsoft SQL Server, API REST, files de tâches, traitement asynchrone, Git
+      - label: Frontend
+        details: React, Next.js, Chakra UI
+      - label: Cloud et infrastructure
+        details: Azure, Linux, Kubernetes, CI/CD, observabilité (Prometheus, Loki, Grafana); OVH, Docker/Podman, Rancher, NixOS
       - label: Leadership technique
-        details: Architecture, revues de code, collaboration produit-ingénierie, mentorat
+        details: Conception/architecture de systèmes, direction et mentorat de petite équipe, revues de code, collaboration produit-ingénierie
     Langues:
       - label: Français
         details: Langue maternelle
