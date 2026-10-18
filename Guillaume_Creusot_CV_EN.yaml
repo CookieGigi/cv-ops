@@ -41,6 +41,13 @@ cv:
           - "**Product Development:** Maintained and evolved the internal development module, then drove the most technical customer projects."
           - "**Mentoring:** Regularly helped colleagues unblock technical issues and shared knowledge across the team."
     Projects:
+      - name: Task Scheduling Module
+        date: "2020"
+        location: Avanteam
+        summary: Product module adding a scheduling interface to plan, assign, and drive quality-record workflows without opening each record.
+        highlights:
+          - "Built during internship and evolved since; led to full-time hire"
+          - "Built with .NET, JavaScript, and jQuery; rolled out to multiple customers"
       - name: AI Assistant for Avanteam Solution
         start_date: 2025-10
         end_date: present
@@ -53,31 +60,13 @@ cv:
           - "Indexes data in Azure Search or OVH PostgreSQL"
           - "Installed as a module in the .NET host via the product's Extension mechanism; exposes a React frontend and a proxy API to the external Python/FastAPI SaaS API that implements the AI capabilities with LangChain/LangGraph"
       - name: Unstructured Document Extraction
-        start_date: 2025-10
+        start_date: 2025-12
         end_date: present
         location: Avanteam
         summary: Multi-agent pipeline that ingests unstructured documents and imports them as typed records with the correct metadata.
         highlights:
-          - "Helps customers avoid tedious manual entry when registering documents and quality records in Avanteam Solution"
-          - "Accepts any unstructured input such as PDFs, Word files, Excel sheets, and emails"
-          - "Classifies the document, runs OCR when needed, and extracts metadata (object, application date, sender/source, record type, ...)"
-          - "Orchestrates specialized agents (OCR, classification, extraction, judge, correction, ...) through a LangGraph workflow"
-          - "Deployed as a customer-side .NET extension that sends documents to the external AI API and receives the inferred record type and metadata for integration"
-      - name: Task Scheduling Module
-        date: "2020"
-        location: Avanteam
-        summary: Core product module adding a task scheduling interface, deployed across multiple customers.
-        highlights:
-          - "Developed during internship and led to full-time hire"
-          - "Integrated into the Avanteam platform and rolled out to multiple customers"
-      - name: AI Modules R&D
-        start_date: 2022
-        end_date: 2024-01
-        location: Avanteam
-        summary: First versions of the company's AI/LLM-powered modules.
-        highlights:
-          - "Researched and prototyped early AI features integrated into the Avanteam product"
-          - "Laid groundwork for later agentic RAG and assistant capabilities"
+          - "Classifies unstructured input (PDFs, Word, Excel, emails), runs OCR, and extracts metadata via a LangGraph agent workflow"
+          - "Deployed as a customer-side .NET extension integrated with the external AI API"
     Education:
       - institution: École Nationale Supérieure de Cognitique (ENSC)
         area: Engineering Degree in Computer Science

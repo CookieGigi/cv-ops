@@ -69,6 +69,20 @@ Feb 2020 – Jan 2024
 
 
 # Projects
+## **Task Scheduling Module**
+
+Avanteam
+
+Jan 2020
+
+Product module adding a scheduling interface to plan, assign, and drive quality-record workflows without opening each record.
+
+- Built during internship and evolved since; led to full-time hire
+
+- Built with .NET, JavaScript, and jQuery; rolled out to multiple customers
+
+
+
 ## **AI Assistant for Avanteam Solution**
 
 Avanteam
@@ -93,47 +107,13 @@ AI assistant embedded in Avanteam Solution to help users exploit documentation a
 
 Avanteam
 
-Oct 2025 – present
+Dec 2025 – present
 
 Multi-agent pipeline that ingests unstructured documents and imports them as typed records with the correct metadata.
 
-- Helps customers avoid tedious manual entry when registering documents and quality records in Avanteam Solution
+- Classifies unstructured input (PDFs, Word, Excel, emails), runs OCR, and extracts metadata via a LangGraph agent workflow
 
-- Accepts any unstructured input such as PDFs, Word files, Excel sheets, and emails
-
-- Classifies the document, runs OCR when needed, and extracts metadata (object, application date, sender/source, record type, ...)
-
-- Orchestrates specialized agents (OCR, classification, extraction, judge, correction, ...) through a LangGraph workflow
-
-- Deployed as a customer-side .NET extension that sends documents to the external AI API and receives the inferred record type and metadata for integration
-
-
-
-## **Task Scheduling Module**
-
-Avanteam
-
-Jan 2020
-
-Core product module adding a task scheduling interface, deployed across multiple customers.
-
-- Developed during internship and led to full-time hire
-
-- Integrated into the Avanteam platform and rolled out to multiple customers
-
-
-
-## **AI Modules R&D**
-
-Avanteam
-
-2022 – Jan 2024
-
-First versions of the company's AI/LLM-powered modules.
-
-- Researched and prototyped early AI features integrated into the Avanteam product
-
-- Laid groundwork for later agentic RAG and assistant capabilities
+- Deployed as a customer-side .NET extension integrated with the external AI API
 
 
 
