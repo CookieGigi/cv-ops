@@ -47,11 +47,20 @@ cv:
         area: Engineering Degree in Computer Science
         start_date: 2017
         end_date: 2020
+        location: Bordeaux, France
+        highlights:
+          - "**Software Engineering:** Software engineering curriculum with a strong focus on .NET development"
+          - "**Engineering Sciences:** Control systems, regulation loops, PID controllers; mathematics, statistics, and signal processing"
+          - "**UX & Human Factors:** UX design and human factors coursework"
+          - "**Robotics:** Final-year specialization in robotics; introduction to embedded systems and computer vision"
       - institution: Lycée Louis de Cormontaigne
         area: Preparatory Classes in Physics and Engineering Sciences
         start_date: 2015
         end_date: 2017
         location: Metz, France
+        highlights:
+          - "**Preparation for Entrance Exams:** Intensive preparation for the French \"grandes écoles\" entrance exams"
+          - "**Core Subjects:** Advanced mathematics, physics, and engineering sciences"
     Skills:
       - label: AI Engineering
         details: LLMs, multimodal AI, structured extraction, LangGraph, LangChain, prompt engineering, AI evaluation

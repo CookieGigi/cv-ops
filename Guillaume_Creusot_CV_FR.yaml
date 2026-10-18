@@ -43,11 +43,20 @@ cv:
         area: Diplôme d'ingénieur en informatique
         start_date: 2017
         end_date: 2020
+        location: Bordeaux, France
+        highlights:
+          - "**Génie logiciel :** Formation au génie logiciel avec un fort accent sur le développement .NET"
+          - "**Sciences de l'ingénieur :** Systèmes asservis, boucles de régulation, régulateurs PID ; mathématiques, statistiques et traitement du signal"
+          - "**UX et facteurs humains :** Cours en UX design et facteurs humains"
+          - "**Robotique :** Spécialisation de dernière année en robotique ; introduction aux systèmes embarqués et à la vision par ordinateur"
       - institution: Lycée Louis de Cormontaigne
         area: CPGE PSI (classes préparatoires)
         start_date: 2015
         end_date: 2017
         location: Metz, France
+        highlights:
+          - "**Préparation aux concours :** Préparation intensive aux concours d'entrée aux grandes écoles françaises"
+          - "**Matières principales :** Mathématiques avancées, physique et sciences de l'ingénieur"
     Compétences:
       - label: IA
         details: LLM, IA multimodale, extraction structurée, LangGraph, LangChain, prompt engineering, évaluation IA
