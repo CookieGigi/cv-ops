@@ -2,7 +2,7 @@
 cv:
   name: Guillaume Creusot
   headline: Ingénieur logiciel / Tech Lead - Intégration IA
-  location: Toulouse et périphérie, France
+  location: Toulouse, France
   social_networks:
     - network: LinkedIn
       username: guillaume-creusot-678237179
@@ -16,17 +16,21 @@ cv:
         end_date: present
         location: Toulouse, France
         highlights:
-          - "**Livraison client :** Conçoit et livre des systèmes de traitement documentaire basés sur des LLM, déployés auprès de plus de 10 clients."
-          - "**Traitement asynchrone :** Développe des chaînes de traitement asynchrones combinant API, files de tâches, traitement multimodal, extraction structurée, validation, persistance et événements de rappel."
-          - "**Fiabilité :** Renforce la fiabilité des flux IA grâce aux reprises sur erreur, délais d'expiration, contrôle de concurrence, observabilité et gestion des indisponibilités des fournisseurs."
-          - "**Leadership :** Tech Lead d'une équipe de 3 développeurs, tout en restant environ 70 % dans l'implémentation, l'architecture et la livraison."
-          - "**Conception produit :** Traduit les besoins produit et clients en conceptions techniques, tickets et spécifications d'interface légères."
+          - "**Livraison client :** Déploie des solutions basées sur des LLM auprès de plus de 10 clients en les intégrant à leurs applications Avanteam et en pilotant les comptes clés de bout en bout."
+          - "**RAG agentique :** Construit un système RAG agentique efficace en Python avec LangChain/LangGraph/FastAPI, en évaluant la justesse, le raisonnement, le coût et la latence sur des jeux de données adaptés."
+          - "**Données et infrastructure :** Migre la recherche depuis Azure Search Service vers PostgreSQL géré conforme au RGPD avec pgvector et un cluster Kubernetes géré, tous deux hébergés par OVH en France, en gardant les données client internes avec des bases de données isolées par client."
+          - "**Fonctionnalités IA :** Développe des workflows asynchrones pour l'extraction de métadonnées de documents non structurés, un assistant de remplissage de formulaires et un chat utilisant le RAG agentique, en combinant .NET/React avec des API Python/FastAPI et du traitement multimodal."
+          - "**Opérations :** Exploite une stack de supervision en production avec journalisation centralisée et alertes sur les déploiements clients."
+          - "**Collaboration :** Tech Lead d'une équipe de 3 développeurs, alliant environ 70 % d'ingénierie pratique à l'architecture et à la livraison ; collabore avec le CTO pour accélérer l'adoption de l'IA et l'utilisation de MCP."
       - company: Voyage personnel en Asie du Sud-Est
         position: Pause professionnelle
         start_date: 2024-03
         end_date: 2025-10
         highlights:
-          - "**Voyage culturel :** Voyage culturel en Thaïlande, au Cambodge, en Indonésie et en Malaisie."
+          - "**Anglais :** Améliore son anglais oral par une immersion complète."
+          - "**Génie logiciel :** Apprend Rust et étudie l'IA/RAG locale, en renforçant les fondamentaux de la programmation fonctionnelle."
+          - "**Culture :** Voyage en Thaïlande, au Cambodge, en Indonésie et en Malaisie, où il rencontre sa femme."
+          - "**Self-hosting et reproductibilité :** Explore l'auto-hébergement et l'IaC avec Proxmox, Docker/Podman, k3s, Tailscale, pfSense/OPNsense, Nginx/Caddy/Traefik, Authentik/Authelia et Ansible ; adopte NixOS comme système quotidien."
       - company: Avanteam
         position: Développeur .NET
         start_date: 2020-02
@@ -59,11 +63,11 @@ cv:
           - "**Matières principales :** Mathématiques avancées, physique et sciences de l'ingénieur"
     Compétences:
       - label: IA
-        details: LLM, IA multimodale, extraction structurée, LangGraph, LangChain, prompt engineering, évaluation IA
+        details: LLMs, IA multimodale, extraction structurée, LangGraph, LangChain, prompt engineering, évaluation IA
       - label: Backend et architecture
-        details: Python, FastAPI, ASP.NET, API, systèmes distribués, traitement asynchrone, files de tâches, conception de systèmes
+        details: Python, FastAPI, ASP.NET, PostgreSQL, API, systèmes distribués, traitement asynchrone, files de tâches, conception de systèmes
       - label: Plateforme
-        details: Docker, Podman, Linux, NixOS, CI/CD, observabilité
+        details: Docker, Podman, Kubernetes, Rancher, ArgoCD, Linux, NixOS, CI/CD, observabilité (Prometheus, Loki, Grafana)
       - label: Leadership technique
         details: Architecture, revues de code, collaboration produit-ingénierie, mentorat
     Langues:
