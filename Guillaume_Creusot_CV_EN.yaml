@@ -17,9 +17,8 @@ cv:
         location: Toulouse, France
         highlights:
           - "**Customer Delivery:** Deployed LLM-powered solutions to 10+ customers by integrating them into their Avanteam apps and managing key accounts end-to-end."
-          - "**Agentic RAG:** Built an efficient agentic RAG system in Python with LangChain/LangGraph/FastAPI, evaluating correctness, reasoning, cost, and latency against tailored datasets."
-          - "**Data & Infrastructure:** Migrated retrieval from Azure Search Service to GDPR-compliant managed PostgreSQL with pgvector and a managed Kubernetes cluster, both hosted by OVH in France, keeping customer data in-house with isolated databases per customer."
-          - "**AI Features:** Built asynchronous workflows for unstructured document metadata extraction, a form-completion assistant, and a chat using agentic RAG, combining .NET/React with Python/FastAPI APIs and multimodal processing."
+          - "**AI Platform:** Led development of an AI assistant integrated into Avanteam Solution to help users exploit documentation and quality records, built with Python/FastAPI, LangChain/LangGraph, .NET/React, and Azure Search / OVH PostgreSQL."
+          - "**Data & Infrastructure:** Migrated AI retrieval from Azure Search Service to France/EU-based managed PostgreSQL with pgvector and a managed Kubernetes cluster on OVH, keeping customer data in-house with isolated databases per customer."
           - "**Operations:** Operated a production monitoring stack with centralized logging and alerting across customer deployments."
           - "**Collaboration:** Tech Lead for a team of 3, balancing ~70% hands-on engineering with architecture and delivery; partnered with the CTO to drive AI adoption and MCP usage."
       - company: Personal Travel in Southeast Asia
@@ -37,11 +36,37 @@ cv:
         end_date: 2024-01
         location: Toulouse, France
         highlights:
-          - "**Internship:** Developed a module for the Avanteam product that adds a task scheduling interface, deployed across multiple customers. Hired full-time after the internship."
+          - "**Internship:** Joined as an intern and was hired full-time after delivering a task-scheduling module integrated into the Avanteam product."
           - "**Project Management:** Led customer projects end-to-end, from specification and architecture through delivery and production run."
-          - "**Product Development:** Maintained and evolved the internal development module during the internship, then drove the most technical customer projects."
+          - "**Product Development:** Maintained and evolved the internal development module, then drove the most technical customer projects."
           - "**Mentoring:** Regularly helped colleagues unblock technical issues and shared knowledge across the team."
-          - "**R&D:** Worked on the first versions of the company's AI modules."
+    Projects:
+      - name: AI Assistant for Avanteam Solution
+        start_date: 2025-10
+        end_date: present
+        location: Avanteam
+        summary: AI assistant embedded in Avanteam Solution to help users exploit documentation and quality records.
+        highlights:
+          - "Built for Avanteam Solution, a web app builder used mainly for Electronic Document Management (GED) and Quality Improvement Manager (QIM)"
+          - "Helps users research, analyze new reclamations, prepare audits, and otherwise exploit documentation and quality records"
+          - "Uses agentic RAG with tools to search indexed records and attachments broadly, plus tools to open specific records or attachments"
+          - "Indexes data in Azure Search or OVH PostgreSQL"
+          - "Installed as a module in the .NET host via the product's Extension mechanism; exposes a React frontend and a proxy API to the external Python/FastAPI SaaS API that implements the AI capabilities with LangChain/LangGraph"
+      - name: Task Scheduling Module
+        date: "2020"
+        location: Avanteam
+        summary: Core product module adding a task scheduling interface, deployed across multiple customers.
+        highlights:
+          - "Developed during internship and led to full-time hire"
+          - "Integrated into the Avanteam platform and rolled out to multiple customers"
+      - name: AI Modules R&D
+        start_date: 2022
+        end_date: 2024-01
+        location: Avanteam
+        summary: First versions of the company's AI/LLM-powered modules.
+        highlights:
+          - "Researched and prototyped early AI features integrated into the Avanteam product"
+          - "Laid groundwork for later agentic RAG and assistant capabilities"
     Education:
       - institution: École Nationale Supérieure de Cognitique (ENSC)
         area: Engineering Degree in Computer Science
