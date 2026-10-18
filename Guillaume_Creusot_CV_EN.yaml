@@ -37,7 +37,11 @@ cv:
         end_date: 2024-01
         location: Toulouse, France
         highlights:
-          - "**Full-cycle Development:** Designed and developed customer-facing web applications from technical architecture through requirements analysis and project delivery."
+          - "**Internship:** Developed a module for the Avanteam product that adds a task scheduling interface, deployed across multiple customers. Hired full-time after the internship."
+          - "**Project Management:** Led customer projects end-to-end, from specification and architecture through delivery and production run."
+          - "**Product Development:** Maintained and evolved the internal development module during the internship, then drove the most technical customer projects."
+          - "**Mentoring:** Regularly helped colleagues unblock technical issues and shared knowledge across the team."
+          - "**R&D:** Worked on the first versions of the company's AI modules."
     Education:
       - institution: École Nationale Supérieure de Cognitique (ENSC)
         area: Engineering Degree in Computer Science

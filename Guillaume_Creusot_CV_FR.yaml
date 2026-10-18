@@ -33,8 +33,11 @@ cv:
         end_date: 2024-01
         location: Toulouse, France
         highlights:
-          - "**Développement web :** Conçoit et développe des applications web en intervenant de l'architecture technique à l'analyse des besoins clients."
-          - "**Livraison :** Participe à la gestion de projet et à la livraison de fonctionnalités destinées aux clients."
+          - "**Stage :** Développe un module du produit Avanteam ajoutant une interface de planification de tâches, déployée chez plusieurs clients. Embauché en CDI à l'issue du stage."
+          - "**Gestion de projet :** Pilote des projets clients de la spécification et de l'architecture jusqu'à la livraison et la mise en production."
+          - "**Développement produit :** Maintient et fait évoluer le module de développement pendant le stage, puis intervient sur les projets clients les plus techniques."
+          - "**Mentorat :** Accompagne les collègues au quotidien pour débloquer les problématiques techniques et partager les bonnes pratiques."
+          - "**R&D :** Participe aux premières versions des modules IA de l'entreprise."
     Formation:
       - institution: École Nationale Supérieure de Cognitique (ENSC)
         area: Diplôme d'ingénieur en informatique
